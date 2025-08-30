@@ -15,12 +15,12 @@ interface Score {
 }
 
 const CARD_IMAGES = [
-  '/Quadro-01.png',
-  '/Quadro-02.png',
-  '/Quadro-03.png',
-  '/Quadro-04.png',
-  '/Quadro-05.png',
-  '/Quadro-06.png'
+  '/Quadro-01 copy.png',
+  '/Quadro-02 copy.png',
+  '/Quadro-03 copy.png',
+  '/Quadro-04 copy.png',
+  '/Quadro-05 copy.png',
+  '/Quadro-06 copy.png'
 ];
 
 function App() {
@@ -208,11 +208,7 @@ function App() {
                 disabled={!playerName.trim()}
                 className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 disabled:from-slate-600 disabled:to-slate-700 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 disabled:scale-100 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40"
               >
-                <img 
-                  src="/iniciar-jogo.png" 
-                  alt="Iniciar Jogo" 
-                  className="h-8 w-auto mx-auto"
-                />
+                Iniciar Jogo
               </button>
             </div>
           </div>
