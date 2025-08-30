@@ -15,12 +15,12 @@ interface Score {
 }
 
 const CARD_IMAGES = [
-  '/public/Quadro-01.png',
-  '/public/Quadro-02.png',
-  '/public/Quadro-03.png',
-  '/public/Quadro-04.png',
-  '/public/Quadro-05.png',
-  '/public/Quadro-06.png'
+  '/Quadro-01.png',
+  '/Quadro-02.png',
+  '/Quadro-03.png',
+  '/Quadro-04.png',
+  '/Quadro-05.png',
+  '/Quadro-06.png'
 ];
 
 function App() {
@@ -177,7 +177,7 @@ function App() {
         <div className="flex-1 flex flex-col items-center justify-center px-4 py-8">
           <div className="mb-12 animate-pulse">
             <img 
-              src="/public/logo01.png" 
+              src="/logo01.png" 
               alt="Logo" 
               className="h-32 md:h-40 lg:h-48 w-auto drop-shadow-2xl"
             />
@@ -209,7 +209,7 @@ function App() {
                 className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 disabled:from-slate-600 disabled:to-slate-700 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 disabled:scale-100 disabled:cursor-not-allowed shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40"
               >
                 <img 
-                  src="/public/iniciar-jogo.png" 
+                  src="/iniciar-jogo.png" 
                   alt="Iniciar Jogo" 
                   className="h-8 w-auto mx-auto"
                 />
@@ -221,7 +221,7 @@ function App() {
         {/* Footer with sponsors */}
         <div className="p-4 border-t border-cyan-500/20">
           <img 
-            src="/public/patrocinadores.png" 
+            src="/patrocinadores.png" 
             alt="Patrocinadores" 
             className="h-16 w-auto mx-auto opacity-80"
           />
@@ -273,7 +273,7 @@ function App() {
               `}>
                 <div className="w-full h-full bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl p-2 flex items-center justify-center">
                   <img 
-                    src="/public/equatorial.png" 
+                    src="/logo01.png" 
                     alt="Card Back" 
                     className="w-full h-full object-contain opacity-80"
                   />
